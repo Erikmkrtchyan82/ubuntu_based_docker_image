@@ -70,5 +70,5 @@ RUN ln -sf /usr/bin/python${PYTHON3_VERSION} /usr/local/bin/python3 && \
 WORKDIR /app
 
 # Set default command to run bash
-CMD ["bash"]
+ENTRYPOINT ["bash"]
 
