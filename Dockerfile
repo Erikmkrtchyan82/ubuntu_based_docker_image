@@ -16,6 +16,9 @@ RUN apt-get -q update -y && \
     apt-get -q update -y && \
     apt-get -q install -y --no-install-recommends \
     jq \
+    vim \
+    cmake \
+    make \
     git \
     graphviz \
     wget \
